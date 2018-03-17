@@ -1,0 +1,37 @@
+Compiling linpack.c (requires GNU compiler collection)
+Running linpack benchmark
+Benchmark result: 2256712.233 KFLOPS
+Running linpack benchmark
+Benchmark result: 2251976.215 KFLOPS
+Running linpack benchmark
+Benchmark result: 2260277.339 KFLOPS
+Running linpack benchmark
+Benchmark result: 2241392.515 KFLOPS
+Running linpack benchmark
+Benchmark result: 2201162.393 KFLOPS
+Running linpack benchmark
+Benchmark result: 2263853.727 KFLOPS
+Running linpack benchmark
+Benchmark result: 2242563.567 KFLOPS
+Running linpack benchmark
+Benchmark result: 2251976.215 KFLOPS
+Running linpack benchmark
+Benchmark result: 2268639.887 KFLOPS
+Running linpack benchmark
+Benchmark result: 2240222.686 KFLOPS
+Running linpack benchmark
+Benchmark result: 2260277.339 KFLOPS
+Running linpack benchmark
+Benchmark result: 2272242.809 KFLOPS
+Running linpack benchmark
+Benchmark result: 2260277.339 KFLOPS
+Running linpack benchmark
+Benchmark result: 2243735.842 KFLOPS
+Running linpack benchmark
+Benchmark result: 2259087.719 KFLOPS
+Running linpack benchmark
+Benchmark result: 2253158.355 KFLOPS
+Running linpack benchmark
+Benchmark result: 2268639.887 KFLOPS
+Running linpack benchmark
+Benchmark result: 2249615.653 KFLOPS

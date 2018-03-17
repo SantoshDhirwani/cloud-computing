@@ -1,0 +1,63 @@
+COMMENTED COMMAND LINE LISTING FOR CREATING VM :
+
+
+1.Installation of Openstack CLI in our system by using python:
+
+> apt install python-openstackclient
+
+2. To export the environment by downloading the .sh file:
+
+>  source cc1718-group09-openrc.sh
+
+3. Openstack is now running:
+
+(openstack)
+
+4.Create ssh key without paraphrase
+
+> ssh-keygen -N”” -f~/.ssh/cc1718-group09
+
+5.Load the public key to the server:
+
+> openstack keeper create —public-key~/.ssh/cc1718-group09
+
+6. Creation of the default security group:
+
+> (openstack) security group rule create  grp09 —proto tcp --dst-port 22:22 default
+
+> (openstack) security group rule create grp09 --proto icmp
+
+7.Create server with configuration “Cloud Computing” and image “ubuntu 16.04” with the default security group and ssh key and the ssh which was created with the network ccnet :
+
+> (openstack) server create --image ubuntu-16.04 --flavor 'Cloud Computing' --security-group default --key-name cc1718-group09 —network ccnet cc1718-group09
+
+8.Delete unused floating ip :
+
+>floatingip=‘openstack floating ip list -status DOWN|awk’{print$4}’|grep’^[[:digit:]]’|tail -n 1’
+
+9.Adding floating ip to the VM Instance :
+
+>(openstack) server add floating ip cc1718-group09 $floatingip
+
+10.Copying the files from local system to VM :
+
+> scp -i ~/.ssh/cc1718-group09 memsweep.sh memsweep.c linpack.sh linpack.c benchmark.sh
+ubuntu@$floatingip:~
+
+11.Connect to the VM Instance via ssh:
+
+>ssh -i ~/.ssh/cc1718-group09 ubuntu@$floatingip
+
+/////LOGGED IN THE VM INSTANCE//////
+
+Making the permission of shell script as executable :
+chmod 0777 memsweep.sh linpack.sh benchmark.sh
+
+Installation of dependencies :
+sudo apt-get install gcc fio 
+
+adding cronjob for user ubuntu :
+0 */4 * * *  ./benchmark.sh
+
+
+  

@@ -1,0 +1,361 @@
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 1 process
+test: Laying out IO file(s) (1 file(s) / 100MB)
+
+test: (groupid=0, jobs=1): err= 0: pid=23931: Thu Dec 14 20:00:11 2017
+  read : io=76764KB, bw=10678KB/s, iops=2669, runt=  7189msec
+  write: io=25636KB, bw=3566.3KB/s, iops=891, runt=  7189msec
+  cpu          : usr=1.39%, sys=2.23%, ctx=22879, majf=0, minf=7
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=10677KB/s, minb=10677KB/s, maxb=10677KB/s, mint=7189msec, maxt=7189msec
+  WRITE: io=25636KB, aggrb=3566KB/s, minb=3566KB/s, maxb=3566KB/s, mint=7189msec, maxt=7189msec
+
+Disk stats (read/write):
+  xvda: ios=18513/6305, merge=437/118, ticks=330684/115388, in_queue=446492, util=98.83%
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=24417: Fri Dec 15 00:00:10 2017
+  read : io=76764KB, bw=9964.2KB/s, iops=2491, runt=  7704msec
+  write: io=25636KB, bw=3327.7KB/s, iops=831, runt=  7704msec
+  cpu          : usr=1.25%, sys=2.23%, ctx=23561, majf=0, minf=7
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=9964KB/s, minb=9964KB/s, maxb=9964KB/s, mint=7704msec, maxt=7704msec
+  WRITE: io=25636KB, aggrb=3327KB/s, minb=3327KB/s, maxb=3327KB/s, mint=7704msec, maxt=7704msec
+
+Disk stats (read/write):
+  xvda: ios=18575/7107, merge=462/155, ticks=354472/179556, in_queue=532848, util=100.00%
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=25170: Fri Dec 15 04:00:09 2017
+  read : io=76764KB, bw=10069KB/s, iops=2517, runt=  7624msec
+  write: io=25636KB, bw=3362.6KB/s, iops=840, runt=  7624msec
+  cpu          : usr=1.36%, sys=2.26%, ctx=23462, majf=0, minf=7
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=10068KB/s, minb=10068KB/s, maxb=10068KB/s, mint=7624msec, maxt=7624msec
+  WRITE: io=25636KB, aggrb=3362KB/s, minb=3362KB/s, maxb=3362KB/s, mint=7624msec, maxt=7624msec
+
+Disk stats (read/write):
+  xvda: ios=18220/6945, merge=354/143, ticks=339664/179944, in_queue=518484, util=100.00%
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=25715: Fri Dec 15 08:00:10 2017
+  read : io=76764KB, bw=10070KB/s, iops=2517, runt=  7623msec
+  write: io=25636KB, bw=3362.2KB/s, iops=840, runt=  7623msec
+  cpu          : usr=1.10%, sys=2.57%, ctx=23644, majf=0, minf=7
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=10070KB/s, minb=10070KB/s, maxb=10070KB/s, mint=7623msec, maxt=7623msec
+  WRITE: io=25636KB, aggrb=3362KB/s, minb=3362KB/s, maxb=3362KB/s, mint=7623msec, maxt=7623msec
+
+Disk stats (read/write):
+  xvda: ios=18231/6937, merge=356/150, ticks=341268/183512, in_queue=523060, util=100.00%
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=26694: Fri Dec 15 12:00:09 2017
+  read : io=76764KB, bw=10065KB/s, iops=2516, runt=  7627msec
+  write: io=25636KB, bw=3361.3KB/s, iops=840, runt=  7627msec
+  cpu          : usr=1.15%, sys=2.41%, ctx=23355, majf=0, minf=7
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=10064KB/s, minb=10064KB/s, maxb=10064KB/s, mint=7627msec, maxt=7627msec
+  WRITE: io=25636KB, aggrb=3361KB/s, minb=3361KB/s, maxb=3361KB/s, mint=7627msec, maxt=7627msec
+
+Disk stats (read/write):
+  xvda: ios=18221/6923, merge=353/145, ticks=339352/180276, in_queue=518036, util=100.00%
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=27203: Fri Dec 15 16:00:09 2017
+  read : io=76764KB, bw=10063KB/s, iops=2515, runt=  7628msec
+  write: io=25636KB, bw=3360.8KB/s, iops=840, runt=  7628msec
+  cpu          : usr=1.00%, sys=2.46%, ctx=23266, majf=0, minf=7
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=10063KB/s, minb=10063KB/s, maxb=10063KB/s, mint=7628msec, maxt=7628msec
+  WRITE: io=25636KB, aggrb=3360KB/s, minb=3360KB/s, maxb=3360KB/s, mint=7628msec, maxt=7628msec
+
+Disk stats (read/write):
+  xvda: ios=18218/6914, merge=353/148, ticks=337248/175504, in_queue=511184, util=100.00%
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=27671: Fri Dec 15 20:00:10 2017
+  read : io=76764KB, bw=10058KB/s, iops=2514, runt=  7632msec
+  write: io=25636KB, bw=3359.2KB/s, iops=839, runt=  7632msec
+  cpu          : usr=2.31%, sys=1.26%, ctx=23070, majf=0, minf=7
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=10058KB/s, minb=10058KB/s, maxb=10058KB/s, mint=7632msec, maxt=7632msec
+  WRITE: io=25636KB, aggrb=3359KB/s, minb=3359KB/s, maxb=3359KB/s, mint=7632msec, maxt=7632msec
+
+Disk stats (read/write):
+  xvda: ios=18204/6931, merge=350/146, ticks=336928/176156, in_queue=511952, util=100.00%
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=28190: Sat Dec 16 00:00:09 2017
+  read : io=76764KB, bw=10056KB/s, iops=2513, runt=  7634msec
+  write: io=25636KB, bw=3358.2KB/s, iops=839, runt=  7634msec
+  cpu          : usr=1.89%, sys=1.62%, ctx=22979, majf=0, minf=7
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=10055KB/s, minb=10055KB/s, maxb=10055KB/s, mint=7634msec, maxt=7634msec
+  WRITE: io=25636KB, aggrb=3358KB/s, minb=3358KB/s, maxb=3358KB/s, mint=7634msec, maxt=7634msec
+
+Disk stats (read/write):
+  xvda: ios=18199/6928, merge=347/147, ticks=336656/178228, in_queue=514404, util=100.00%
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=28736: Sat Dec 16 04:00:09 2017
+  read : io=76764KB, bw=10065KB/s, iops=2516, runt=  7627msec
+  write: io=25636KB, bw=3361.3KB/s, iops=840, runt=  7627msec
+  cpu          : usr=1.31%, sys=2.31%, ctx=23000, majf=0, minf=7
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=10064KB/s, minb=10064KB/s, maxb=10064KB/s, mint=7627msec, maxt=7627msec
+  WRITE: io=25636KB, aggrb=3361KB/s, minb=3361KB/s, maxb=3361KB/s, mint=7627msec, maxt=7627msec
+
+Disk stats (read/write):
+  xvda: ios=18205/6945, merge=353/146, ticks=339656/178004, in_queue=517348, util=100.00%
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=29206: Sat Dec 16 08:00:09 2017
+  read : io=76764KB, bw=10058KB/s, iops=2514, runt=  7632msec
+  write: io=25636KB, bw=3359.2KB/s, iops=839, runt=  7632msec
+  cpu          : usr=1.78%, sys=1.62%, ctx=23133, majf=0, minf=7
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=10058KB/s, minb=10058KB/s, maxb=10058KB/s, mint=7632msec, maxt=7632msec
+  WRITE: io=25636KB, aggrb=3359KB/s, minb=3359KB/s, maxb=3359KB/s, mint=7632msec, maxt=7632msec
+
+Disk stats (read/write):
+  xvda: ios=18198/6940, merge=347/146, ticks=337388/180584, in_queue=517460, util=100.00%
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=29740: Sat Dec 16 12:00:09 2017
+  read : io=76764KB, bw=10067KB/s, iops=2516, runt=  7625msec
+  write: io=25636KB, bw=3362.1KB/s, iops=840, runt=  7625msec
+  cpu          : usr=1.15%, sys=2.36%, ctx=23235, majf=0, minf=7
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=10067KB/s, minb=10067KB/s, maxb=10067KB/s, mint=7625msec, maxt=7625msec
+  WRITE: io=25636KB, aggrb=3362KB/s, minb=3362KB/s, maxb=3362KB/s, mint=7625msec, maxt=7625msec
+
+Disk stats (read/write):
+  xvda: ios=18209/6930, merge=351/149, ticks=337632/180304, in_queue=516932, util=100.00%
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=30375: Sat Dec 16 16:00:10 2017
+  read : io=76764KB, bw=10066KB/s, iops=2516, runt=  7626msec
+  write: io=25636KB, bw=3361.7KB/s, iops=840, runt=  7626msec
+  cpu          : usr=1.21%, sys=2.26%, ctx=23178, majf=0, minf=7
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=10066KB/s, minb=10066KB/s, maxb=10066KB/s, mint=7626msec, maxt=7626msec
+  WRITE: io=25636KB, aggrb=3361KB/s, minb=3361KB/s, maxb=3361KB/s, mint=7626msec, maxt=7626msec
+
+Disk stats (read/write):
+  xvda: ios=18210/6940, merge=351/151, ticks=338616/178380, in_queue=516448, util=100.00%
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=31275: Sat Dec 16 20:00:09 2017
+  read : io=76764KB, bw=10065KB/s, iops=2516, runt=  7627msec
+  write: io=25636KB, bw=3361.3KB/s, iops=840, runt=  7627msec
+  cpu          : usr=1.47%, sys=1.99%, ctx=23112, majf=0, minf=7
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=10064KB/s, minb=10064KB/s, maxb=10064KB/s, mint=7627msec, maxt=7627msec
+  WRITE: io=25636KB, aggrb=3361KB/s, minb=3361KB/s, maxb=3361KB/s, mint=7627msec, maxt=7627msec
+
+Disk stats (read/write):
+  xvda: ios=18213/6923, merge=351/152, ticks=337808/178612, in_queue=514876, util=100.00%
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=31780: Sun Dec 17 00:00:09 2017
+  read : io=76764KB, bw=10079KB/s, iops=2519, runt=  7616msec
+  write: io=25636KB, bw=3366.8KB/s, iops=841, runt=  7616msec
+  cpu          : usr=1.52%, sys=2.00%, ctx=23263, majf=0, minf=7
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=10079KB/s, minb=10079KB/s, maxb=10079KB/s, mint=7616msec, maxt=7616msec
+  WRITE: io=25636KB, aggrb=3366KB/s, minb=3366KB/s, maxb=3366KB/s, mint=7616msec, maxt=7616msec
+
+Disk stats (read/write):
+  xvda: ios=18238/6939, merge=356/147, ticks=342428/174232, in_queue=515500, util=100.00%
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=32676: Sun Dec 17 04:00:09 2017
+  read : io=76764KB, bw=10062KB/s, iops=2515, runt=  7629msec
+  write: io=25636KB, bw=3360.4KB/s, iops=840, runt=  7629msec
+  cpu          : usr=1.21%, sys=2.41%, ctx=23067, majf=0, minf=8
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=10062KB/s, minb=10062KB/s, maxb=10062KB/s, mint=7629msec, maxt=7629msec
+  WRITE: io=25636KB, aggrb=3360KB/s, minb=3360KB/s, maxb=3360KB/s, mint=7629msec, maxt=7629msec
+
+Disk stats (read/write):
+  xvda: ios=18209/6941, merge=351/140, ticks=341784/177384, in_queue=518620, util=100.00%
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=1383: Sun Dec 17 08:00:10 2017
+  read : io=76764KB, bw=10056KB/s, iops=2513, runt=  7634msec
+  write: io=25636KB, bw=3358.2KB/s, iops=839, runt=  7634msec
+  cpu          : usr=1.78%, sys=1.83%, ctx=23413, majf=0, minf=7
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=10055KB/s, minb=10055KB/s, maxb=10055KB/s, mint=7634msec, maxt=7634msec
+  WRITE: io=25636KB, aggrb=3358KB/s, minb=3358KB/s, maxb=3358KB/s, mint=7634msec, maxt=7634msec
+
+Disk stats (read/write):
+  xvda: ios=18204/6930, merge=349/144, ticks=338004/176796, in_queue=513976, util=100.00%
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=1887: Sun Dec 17 12:00:09 2017
+  read : io=76764KB, bw=10065KB/s, iops=2516, runt=  7627msec
+  write: io=25636KB, bw=3361.3KB/s, iops=840, runt=  7627msec
+  cpu          : usr=1.52%, sys=1.94%, ctx=23423, majf=0, minf=7
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=10064KB/s, minb=10064KB/s, maxb=10064KB/s, mint=7627msec, maxt=7627msec
+  WRITE: io=25636KB, aggrb=3361KB/s, minb=3361KB/s, maxb=3361KB/s, mint=7627msec, maxt=7627msec
+
+Disk stats (read/write):
+  xvda: ios=18209/6934, merge=353/144, ticks=337264/178520, in_queue=515280, util=100.00%
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.1.5
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=2405: Sun Dec 17 16:00:09 2017
+  read : io=76764KB, bw=10065KB/s, iops=2516, runt=  7627msec
+  write: io=25636KB, bw=3361.3KB/s, iops=840, runt=  7627msec
+  cpu          : usr=1.36%, sys=2.05%, ctx=23301, majf=0, minf=7
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=10064KB/s, minb=10064KB/s, maxb=10064KB/s, mint=7627msec, maxt=7627msec
+  WRITE: io=25636KB, aggrb=3361KB/s, minb=3361KB/s, maxb=3361KB/s, mint=7627msec, maxt=7627msec
+
+Disk stats (read/write):
+  xvda: ios=18213/6937, merge=355/140, ticks=339460/175676, in_queue=514296, util=100.00%

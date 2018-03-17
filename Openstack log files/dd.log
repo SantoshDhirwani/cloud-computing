@@ -1,0 +1,77 @@
+------------------
+2017/12/16_00:10:11
+dd check
+1+0 records in
+1+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 1.188643 s, 39.1 MB/s
+####################
+2017/12/16_04:14:59
+dd check
+1+0 records in
+1+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 1.13496 s, 90.4 MB/s
+####################
+2017/12/16_08:15:22
+dd check
+1+0 records in
+1+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 1.03421 s, 96.1 MB/s
+####################
+2017/12/16_12:15:18
+dd check
+1+0 records in
+1+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 1.04343 s, 93.5 MB/s
+####################
+2017/12/16_16:16:01
+dd check
+1+0 records in
+1+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 1.28258 s, 70.1 MB/s
+####################
+2017/12/16_20:15:07
+dd check
+1+0 records in
+1+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 1.10787 s, 85.6 MB/s
+####################
+2017/12/17_00:15:23
+dd check
+1+0 records in
+1+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 1.12801 s, 100 MB/s
+####################
+2017/12/17_04:15:09
+dd check
+1+0 records in
+1+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 1.0418 s, 61.2 MB/s
+####################
+2017/12/17_08:15:08
+dd check
+1+0 records in
+1+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 0.993191 s, 92.8 MB/s
+####################
+2017/12/17_12:15:18
+dd check
+1+0 records in
+1+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 1.238574 s, 69.5 MB/s
+####################
+2017/12/17_16:15:22
+dd check
+1+0 records in
+1+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 1.241151 s, 61.7 MB/s
+####################
+2017/12/17_20:15:18
+dd check
+1+0 records in
+1+0 records out
+104857600 bytes (105 MB, 100 MiB) copied, 1.13018 s, 90.2 MB/s
+####################
+
+
+
+

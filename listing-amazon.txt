@@ -1,0 +1,54 @@
+COMMENTED COMMAND LINE LISTING TO PREPARE THE AMAZON EC2 INSTANCE :
+
+1.Installation of AWSCLI in our system by using python package pip :
+> pip install awscli --upgrade –user
+
+2.Getting the aws version :
+> aws –version
+aws-cli/1.14.9 Python/2.7.14 Darwin/14.5.0 botocore/1.8.13
+
+3.Reloading bash_profile and adding new path to PATH environment variable :
+> source ~/.bash_profile
+> export PATH=~/.local/bin:$PATH
+
+4.Configure AWS access credentials ,region and output format
+> aws configure AWS Access Key ID [****************DZDQ]: AWS Secret Access Key [****************n8JX]: Default region name [eu-central-1]: Default output format [json]:
+5.Create security group : > aws ec2 create-security-group --group-name cc_9 --description "security group for group 9"
+{
+    "GroupId": "sg-12c14c6e"
+}
+
+6.Enable ssh for security group : > aws ec2 authorize-security-group-ingress --group-id sg-12c14c6e --protocol tcp --port 22 --cidr 0.0.0.0/0
+7.Create Keypair and save it in “cloud-key1.pem” : >aws ec2 create-key-pair --key-name cloud-key1 --output text > cloud-key1.pem
+8.Create and start an instance of type "t2.micro" : > aws ec2 run-instances --image-id ami- bf2ba8d0 --security-group-ids sg-12c14c6e --count 1 --instance-type t2.micro --key-name cloud-key1 --query 'Instances[0].InstanceId'
+"i-01cb4bb3d2d9e5866"
+8.To get the public IP : > aws ec2 describe-instances --instance-ids "i01cb4bb3d2d9e5866" –query "Reservations[0].Instances[0].PublicIpAddress"
+"35.161.150.243"
+
+9.Launching a secure pathway to access the instance on the remote machine : 
+> ssh -i cloud-key1.pem ec-user@35.161.150.243 
+
+The authenticity of host '35.161.150.243 (35.161.150.243)' can't be established.
+RSA key fingerprint is e9:9b:03:c5:1b:be:81:0f:1e:6f:fe:19:48:a7:f8:35.
+Are you sure you want to continue connecting (yes/no)? yes
+
+10.Install yum packages :
+> [ec2-user@ip-172-31-46-122 ~]$ sudo yum update
+
+
+11.Install gcc and fio(for calculating Disk Benchmark) :
+> [ec2-user@ip-172-31-46-122 ~]$ sudo yum install gcc fio
+
+
+12.Transfering files from local machine to remote machine :
+> scp –I cloud.key1.pem <files> ec2-user@35.161.150.243
+ 
+
+13.Do all the tests via SSH :dd,fio,memsweep and Linpack
+
+14. Terminate instance :
+> aws ec2 terminate-instances –instance-ids i-01cb4bb3d2d9e5866
+
+
+
+

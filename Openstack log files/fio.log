@@ -1,0 +1,252 @@
+sudo: unable to resolve host cloud-g1
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.2.10
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=8196: Sat Dec 16 00:16:45 2017
+  read : io=76764KB, bw=827757B/s, iops=202, runt= 94963msec
+  write: io=25636KB, bw=276436B/s, iops=67, runt= 94963msec
+  cpu          : usr=0.17%, sys=0.71%, ctx=24326, majf=0, minf=10
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=808KB/s, minb=808KB/s, maxb=808KB/s, mint=94963msec, maxt=94963msec
+  WRITE: io=25636KB, aggrb=269KB/s, minb=269KB/s, maxb=269KB/s, mint=94963msec, maxt=94963msec
+
+Disk stats (read/write):
+  vda: ios=19190/6461, merge=0/47, ticks=4478620/1485668, in_queue=5964360, util=100.00%
+sudo: unable to resolve host cloud-g1
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.2.10
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=9485: Sat Dec 16 04:16:38 2017
+  read : io=76764KB, bw=825376B/s, iops=201, runt= 95237msec
+  write: io=25636KB, bw=275641B/s, iops=67, runt= 95237msec
+  cpu          : usr=0.18%, sys=0.71%, ctx=24430, majf=0, minf=9
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=806KB/s, minb=806KB/s, maxb=806KB/s, mint=95237msec, maxt=95237msec
+  WRITE: io=25636KB, aggrb=269KB/s, minb=269KB/s, maxb=269KB/s, mint=95237msec, maxt=95237msec
+
+Disk stats (read/write):
+  vda: ios=19156/6453, merge=0/54, ticks=4477408/1490776, in_queue=5972612, util=100.00%
+sudo: unable to resolve host cloud-g1
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.2.10
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=10979: Sat Dec 16 08:17:00 2017
+  read : io=76764KB, bw=834949B/s, iops=203, runt= 94145msec
+  write: io=25636KB, bw=278838B/s, iops=68, runt= 94145msec
+  cpu          : usr=0.11%, sys=0.78%, ctx=24445, majf=0, minf=9
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=815KB/s, minb=815KB/s, maxb=815KB/s, mint=94145msec, maxt=94145msec
+  WRITE: io=25636KB, aggrb=272KB/s, minb=272KB/s, maxb=272KB/s, mint=94145msec, maxt=94145msec
+
+Disk stats (read/write):
+  vda: ios=19069/6427, merge=0/47, ticks=4438692/1468872, in_queue=5909956, util=99.95%
+sudo: unable to resolve host cloud-g1
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.2.10
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=12377: Sat Dec 16 12:16:56 2017
+  read : io=76764KB, bw=828577B/s, iops=202, runt= 94869msec
+  write: io=25636KB, bw=276710B/s, iops=67, runt= 94869msec
+  cpu          : usr=0.19%, sys=0.72%, ctx=24476, majf=0, minf=9
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=809KB/s, minb=809KB/s, maxb=809KB/s, mint=94869msec, maxt=94869msec
+  WRITE: io=25636KB, aggrb=270KB/s, minb=270KB/s, maxb=270KB/s, mint=94869msec, maxt=94869msec
+
+Disk stats (read/write):
+  vda: ios=19139/6450, merge=0/51, ticks=4464552/1493472, in_queue=5961108, util=99.96%
+sudo: unable to resolve host cloud-g1
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.2.10
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=17478: Sat Dec 16 16:18:09 2017
+  read : io=76764KB, bw=652681B/s, iops=159, runt=120436msec
+  write: io=25636KB, bw=217968B/s, iops=53, runt=120436msec
+  cpu          : usr=0.15%, sys=0.63%, ctx=20685, majf=0, minf=9
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=637KB/s, minb=637KB/s, maxb=637KB/s, mint=120436msec, maxt=120436msec
+  WRITE: io=25636KB, aggrb=212KB/s, minb=212KB/s, maxb=212KB/s, mint=120436msec, maxt=120436msec
+
+Disk stats (read/write):
+  vda: ios=19823/7202, merge=0/1373, ticks=5632928/2059408, in_queue=7699648, util=100.00%
+sudo: unable to resolve host cloud-g1
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.2.10
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=14089: Sat Dec 16 20:17:30 2017
+  read : io=76764KB, bw=578344B/s, iops=141, runt=135916msec
+  write: io=25636KB, bw=193143B/s, iops=47, runt=135916msec
+  cpu          : usr=0.14%, sys=0.70%, ctx=23736, majf=0, minf=9
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=564KB/s, minb=564KB/s, maxb=564KB/s, mint=135916msec, maxt=135916msec
+  WRITE: io=25636KB, aggrb=188KB/s, minb=188KB/s, maxb=188KB/s, mint=135916msec, maxt=135916msec
+
+Disk stats (read/write):
+  vda: ios=19112/6453, merge=0/83, ticks=6318408/2108692, in_queue=8432936, util=99.99%
+sudo: unable to resolve host cloud-g1
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.2.10
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=15473: Sun Dec 17 00:17:03 2017
+  read : io=76764KB, bw=822431B/s, iops=200, runt= 95578msec
+  write: io=25636KB, bw=274658B/s, iops=67, runt= 95578msec
+  cpu          : usr=0.22%, sys=0.83%, ctx=24341, majf=0, minf=9
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=803KB/s, minb=803KB/s, maxb=803KB/s, mint=95578msec, maxt=95578msec
+  WRITE: io=25636KB, aggrb=268KB/s, minb=268KB/s, maxb=268KB/s, mint=95578msec, maxt=95578msec
+
+Disk stats (read/write):
+  vda: ios=19161/6468, merge=0/91, ticks=4498236/1495880, in_queue=5995780, util=99.95%
+sudo: unable to resolve host cloud-g1
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.2.10
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=16713: Sun Dec 17 04:16:50 2017
+  read : io=76764KB, bw=815824B/s, iops=199, runt= 96352msec
+  write: io=25636KB, bw=272451B/s, iops=66, runt= 96352msec
+  cpu          : usr=0.20%, sys=0.80%, ctx=24400, majf=0, minf=9
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=796KB/s, minb=796KB/s, maxb=796KB/s, mint=96352msec, maxt=96352msec
+  WRITE: io=25636KB, aggrb=266KB/s, minb=266KB/s, maxb=266KB/s, mint=96352msec, maxt=96352msec
+
+Disk stats (read/write):
+  vda: ios=19098/6439, merge=0/41, ticks=4540904/1500208, in_queue=6045960, util=99.96%
+sudo: unable to resolve host cloud-g1
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.2.10
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=18062: Sun Dec 17 08:16:45 2017
+  read : io=76764KB, bw=825315B/s, iops=201, runt= 95244msec
+  write: io=25636KB, bw=275621B/s, iops=67, runt= 95244msec
+  cpu          : usr=0.18%, sys=0.83%, ctx=24449, majf=0, minf=9
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=805KB/s, minb=805KB/s, maxb=805KB/s, mint=95244msec, maxt=95244msec
+  WRITE: io=25636KB, aggrb=269KB/s, minb=269KB/s, maxb=269KB/s, mint=95244msec, maxt=95244msec
+
+Disk stats (read/write):
+  vda: ios=19174/6458, merge=0/45, ticks=4493816/1487552, in_queue=5984432, util=99.97%
+sudo: unable to resolve host cloud-g1
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.2.10
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=19295: Sun Dec 17 12:18:14 2017
+  read : io=76764KB, bw=455042B/s, iops=111, runt=172745msec
+  write: io=25636KB, bw=151965B/s, iops=37, runt=172745msec
+  cpu          : usr=0.10%, sys=0.45%, ctx=23515, majf=0, minf=9
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=444KB/s, minb=444KB/s, maxb=444KB/s, mint=172745msec, maxt=172745msec
+  WRITE: io=25636KB, aggrb=148KB/s, minb=148KB/s, maxb=148KB/s, mint=172745msec, maxt=172745msec
+
+Disk stats (read/write):
+  vda: ios=19184/6489, merge=0/76, ticks=8028528/2689932, in_queue=10725756, util=100.00%
+sudo: unable to resolve host cloud-g1
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.2.10
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=20539: Sun Dec 17 16:18:19 2017
+  read : io=76764KB, bw=455142B/s, iops=111, runt=172707msec
+  write: io=25636KB, bw=151998B/s, iops=37, runt=172707msec
+  cpu          : usr=0.09%, sys=0.46%, ctx=23298, majf=0, minf=9
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=444KB/s, minb=444KB/s, maxb=444KB/s, mint=172707msec, maxt=172707msec
+  WRITE: io=25636KB, aggrb=148KB/s, minb=148KB/s, maxb=148KB/s, mint=172707msec, maxt=172707msec
+
+Disk stats (read/write):
+  vda: ios=19123/6486, merge=0/80, ticks=7903804/2666600, in_queue=10580028, util=100.00%
+sudo: unable to resolve host cloud-g1
+test: (g=0): rw=randrw, bs=4K-4K/4K-4K/4K-4K, ioengine=libaio, iodepth=64
+fio-2.2.10
+Starting 1 process
+
+test: (groupid=0, jobs=1): err= 0: pid=21466: Sun Dec 17 20:18:16 2017
+  read : io=76764KB, bw=458217B/s, iops=111, runt=171548msec
+  write: io=25636KB, bw=153025B/s, iops=37, runt=171548msec
+  cpu          : usr=0.10%, sys=0.45%, ctx=23406, majf=0, minf=9
+  IO depths    : 1=0.1%, 2=0.1%, 4=0.1%, 8=0.1%, 16=0.1%, 32=0.1%, >=64=99.8%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.1%, >=64=0.0%
+     issued    : total=r=19191/w=6409/d=0, short=r=0/w=0/d=0, drop=r=0/w=0/d=0
+     latency   : target=0, window=0, percentile=100.00%, depth=64
+
+Run status group 0 (all jobs):
+   READ: io=76764KB, aggrb=447KB/s, minb=447KB/s, maxb=447KB/s, mint=171548msec, maxt=171548msec
+  WRITE: io=25636KB, aggrb=149KB/s, minb=149KB/s, maxb=149KB/s, mint=171548msec, maxt=171548msec
+
+Disk stats (read/write):
+  vda: ios=19181/6503, merge=0/62, ticks=7922668/2643704, in_queue=10567372, util=100.00%

@@ -1,0 +1,37 @@
+Compiling memsweep.c (requires GNU compiler collection) 
+Running memsweep benchmark
+Memsweep time in seconds: 5.250
+Running memsweep benchmark
+Memsweep time in seconds: 5.240
+Running memsweep benchmark
+Memsweep time in seconds: 5.280
+Running memsweep benchmark
+Memsweep time in seconds: 5.260
+Running memsweep benchmark
+Memsweep time in seconds: 5.240
+Running memsweep benchmark
+Memsweep time in seconds: 5.250
+Running memsweep benchmark
+Memsweep time in seconds: 5.270
+Running memsweep benchmark
+Memsweep time in seconds: 5.220
+Running memsweep benchmark
+Memsweep time in seconds: 5.270
+Running memsweep benchmark
+Memsweep time in seconds: 5.270
+Running memsweep benchmark
+Memsweep time in seconds: 5.240
+Running memsweep benchmark
+Memsweep time in seconds: 5.210
+Running memsweep benchmark
+Memsweep time in seconds: 5.270
+Running memsweep benchmark
+Memsweep time in seconds: 5.200
+Running memsweep benchmark
+Memsweep time in seconds: 5.210
+Running memsweep benchmark
+Memsweep time in seconds: 5.260
+Running memsweep benchmark
+Memsweep time in seconds: 5.190
+Running memsweep benchmark
+Memsweep time in seconds: 5.250

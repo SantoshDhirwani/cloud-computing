@@ -1,0 +1,72 @@
+------------------
+2017/12/16_00:00:26
+CPU check
+Running linpack benchmark
+Benchmark result: 1787965.568 KFLOPS
+######################
+------------------
+2017/12/16_04:00:26
+CPU check
+Running linpack benchmark
+Benchmark result: 1781082.784 KFLOPS
+######################
+------------------
+2017/12/16_08:00:26
+CPU check
+Running linpack benchmark
+Benchmark result: 1772834.635 KFLOPS
+######################
+------------------
+2017/12/16_12:00:26
+CPU check
+Running linpack benchmark
+Benchmark result: 1775186.758 KFLOPS
+######################
+------------------
+2017/12/16_16:00:26
+CPU check
+Running linpack benchmark
+Benchmark result: 1768648.259 KFLOPS
+######################
+------------------
+2017/12/16_20:00:27
+CPU check
+Running linpack benchmark
+Benchmark result: 1730199.024 KFLOPS
+######################
+------------------
+2017/12/17_00:00:27
+CPU check
+Running linpack benchmark
+Benchmark result: 1756086.502 KFLOPS
+######################
+------------------
+2017/12/17_04:00:26
+CPU check
+Running linpack benchmark
+Benchmark result: 1777441.048 KFLOPS
+######################
+------------------
+2017/12/17_08:00:27
+CPU check
+Running linpack benchmark
+Benchmark result: 1760232.898 KFLOPS
+######################
+------------------
+2017/12/17_12:00:27
+CPU check
+Running linpack benchmark
+Benchmark result: 1710747.156 KFLOPS
+######################
+------------------
+2017/12/17_16:00:26
+CPU check
+Running linpack benchmark
+Benchmark result: 1758040.741 KFLOPS
+######################
+------------------
+2017/12/17_20:00:26
+CPU check
+Running linpack benchmark
+Benchmark result: 1720921.094 KFLOPS
+######################
